@@ -1,0 +1,105 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+}
+
+header {
+    min-height: 60px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.topnav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color:#5F6368;
+}
+
+.topnav img  {
+    width:30px;
+    border-radius:30px;
+    margin-right:20px;
+}
+
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContent img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+form img {
+    width:50px;
+    border-radius: 50%;
+}
+
+input[type=text] {
+    background: url("https://icon2.cleanpng.com/20180625/cxl/kisspng-computer-icons-search-icon-5b30c8ad36d571.3385379615299237572246.jpg") no-repeat scroll 10px 10px;
+    padding-left: 35px;
+    background-size: 16px;
+    height: 40px;
+    width: 500px;
+    border-radius: 30px;
+    border: 1px solid lavender;
+}
+
+input[type=submit] {
+    background-color:#f2f2f2;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    color:#5F6368;
+}
+
+.formFill {
+    margin-bottom: 30px;
+}
+
+.formSearch {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    height:14vh;
+    background-color: #f2f2f2;
+}
+
+.upperFooter {
+    border-top:1px solid #e4e4e4;
+    border-bottom:1px solid #e4e4e4;
+    padding:9px 20px;
+}
+
+.downFooter {
+}
+
+.left, .right {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 115px;
+    font-size: 13px;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    color:#5f6368;
+}
